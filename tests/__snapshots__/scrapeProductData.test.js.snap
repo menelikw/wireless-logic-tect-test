@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrapeProductData when page has matching elements scrapes product html and transforms it to json ordered by descending price 1`] = `
+[
+  {
+    "description": "Up to 6GB of data per year including 240 SMS (5p / MB data and 4p / SMS thereafter)",
+    "discount": 5,
+    "optionTitle": "Test package name 1",
+    "price": 90,
+  },
+  {
+    "description": "Up to 6GB of data per year including 240 SMS (5p / MB data and 4p / SMS thereafter)",
+    "discount": 100,
+    "optionTitle": "Test package name 3",
+    "price": 80,
+  },
+  {
+    "description": "Up to 6GB of data per year including 240 SMS (5p / MB data and 4p / SMS thereafter)",
+    "discount": 10,
+    "optionTitle": "Test package name 2",
+    "price": 70,
+  },
+]
+`;
